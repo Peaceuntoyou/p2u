@@ -7,7 +7,7 @@ export default {
     extend: {
       fontSize: {
         '50px': '50px', '60px' : '60px', '8px' : '8px',
-        '10px' : '10px', '6px' : '6px',
+        '10px' : '10px', '6px' : '6px', '12px' : '12px',
       },
       fontFamily: {
         sans: ['Helvetica', 'Arial', 'sans-serif'], 

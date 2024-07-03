@@ -28,18 +28,18 @@ function Header(){
             <div className="text-slate-200 text-60px font-sans">
             <h1><span className="text-blue-700">TUTOR</span>REACTIVE</h1>
             </div>
-            <div className="w-[50px] h-[2px] bg-blue-700 my-3"></div>
+            <div className="w-[100px] h-[2px] bg-blue-700 mb-5 ml-1"></div>
             <div>
-            <p className="text-8px text-slate-200 mb-4 font-sans">Lorem ipsum dolor sit amet, consectetur 
+            <p className="text-x text-slate-200 mb-4  font-sans">Lorem ipsum dolor sit amet, consectetur 
                 adipisicing elit. Voluptatem quam debitis, 
                 quia amet saepe eius error magnam totam 
                 veniam ullam eligendi sunt expedita pariatur 
-                iure mollitia aspernatur molestiae excepturi 
+                iure mollitia aspernatur molestiae excepturiml-1 
                 </p>
             </div>
             <div>
                 <button onClick={toContact} className="bg-blue-600 text-slate-200 
-                rounded-md px-5 font-sans">EXPLORE COURSES</button>
+                rounded-xl px-5 py-3 ml-1 font-sans">EXPLORE COURSES</button>
             </div>
             </div>
             <div>

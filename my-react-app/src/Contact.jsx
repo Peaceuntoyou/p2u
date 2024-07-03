@@ -13,7 +13,7 @@ const Contact = () => {
     const navigate = useNavigate();
 
     const toHeader = () => {
-      navigate('/Header');
+      navigate('/');
     };
 
   return (
@@ -30,12 +30,12 @@ const Contact = () => {
         <div className="flex">
              <img src={robot2} className="w-[30px] h-[30px]
              bg-slate-200 rounded-full" alt="" />
-             <h1 className="text-slate-200 text-xl ml-2 font-serif"><span 
+             <h1 className="text-slate-200 text-3xl ml-2 font-serif"><span 
              className="text-blue-700">TUTOR</span>REACTIVE</h1>
             </div>
         
         <div>
-        <p className="text-8px text-slate-200 
+        <p className="text-12px text-slate-200 
         mb-4 font-sans mt-5">Lorem ipsum dolor sit amet, consectetur 
             adipisicing elit. Voluptatem quam debitis, 
             quia amet saepe eius error magnam totam 
@@ -44,46 +44,47 @@ const Contact = () => {
             eligendi sunt exped itallam 
             </p>
         </div>
-        <div className="w-[30px] h-[2px] bg-blue-700 mt-5"></div>
+        <div className="w-[50px] h-[2px] bg-blue-700 mt-5"></div>
         <div className="mt-6">
-            <p className="text-slate-200 text-8px">OUR LOCATION</p>
+            <p className="text-slate-200 text-12px">OUR LOCATION</p>
         </div>
         <div className="flex mt-4">
-         <p className="text-slate-200 text-8px">< FaMapMarkerAlt /></p>
-         <p className="text-slate-200 text-8px ml-2">
+         <p className="text-slate-200 text-10px">< FaMapMarkerAlt /></p>
+         <p className="text-slate-200 text-10px ml-2">
             Federal housing nyanyan</p>
         </div>
         <div className="flex mt-1">
-         <p className="text-slate-200 text-8px"><FaPhoneAlt /></p>
-         <p className="text-slate-200 text-8px ml-2">
+         <p className="text-slate-200 text-10px"><FaPhoneAlt /></p>
+         <p className="text-slate-200 text-10px ml-2">
             +234 8069430449</p>
         </div>
         <div className="flex mt-1">
-         <p className="text-slate-200 text-8px"><FaGlassCheers /></p>
-         <p className="text-blue-900 text-8px ml-2">
+         <p className="text-slate-200 text-10px"><FaGlassCheers /></p>
+         <p className="text-blue-900 text-10px ml-2">
             You deserve a cup of wine when you subscribe with us</p>
         </div>
-        <div className="w-[20px] h-[2px] bg-blue-700 mt-4"></div>
+        <div className="w-[50px] h-[2px] bg-blue-700 mt-4"></div>
         <div className="mt-6">
-            <p className="text-slate-200 text-8px ml-5">FIND US ON</p>
+            <p className="text-slate-200 text-12px ">FIND US ON</p>
         </div>
         <div className="flex mt-5">
-            <p className="text-slate-200 text-x"><FaFacebookF /></p>
-            <p className="text-slate-200 text-x ml-2"><FaTwitter /></p>
-            <p className="text-slate-200 text-x ml-2"><FaInstagram /></p>
+            <p className="text-slate-200 text-10px"><FaFacebookF /></p>
+            <p className="text-slate-200 text-10px ml-2"><FaTwitter /></p>
+            <p className="text-slate-200 text-10px ml-2"><FaInstagram /></p>
         </div>
         
+        {/* form */}
         </div>
-        <div className="w-[390px] h-[450px] 
+        <div className="w-[390px] h-[500px] 
         bg-gray-200 rounded-xl mt-2 px-10 py-6">
-            <h2 className="font-serif text-blue-500 ">Join Us</h2>
-            <div className="w-[15px] h-[2px] bg-blue-500 mt-1"></div>
-            <p className="text-8px w-[200px] mb-4 
-         font-sans mt-3">Lorem ipsum dolor sit amet, consectetur 
+            <h2 className="font-serif text-blue-500 text-xl font-semibold">Join Us</h2>
+            <div className="w-[30px] h-[2px] bg-blue-500 mt-1"></div>
+            <p className="text-10px w-[200px] mb-4 
+         font-sans mt-3 font-semibold">Lorem ipsum dolor sit amet, consectetur 
             adipisicing elit. Voluptatem quam debitis, 
             quia amet saepe eius error   
             </p>
-                <label className="text-8px">Name</label>
+                <label className="text-10px font-semibold">Name</label>
                 <div className="flex">
                 <input type="text"  
                 placeholder="First" 
@@ -93,11 +94,11 @@ const Contact = () => {
                 className="w-[150px] h-[17px] rounded-md ml-1 
                 placeholder-gray-300 placeholder-text-sm"></input>
             </div>
-            <label className="text-8px">Create Password</label>
+            <label className="text-10px font-semibold">Create Password</label>
             <input type="text" className="w-[300px] h-[17px] rounded-md"/>
-                <label className="text-8px">Confirm Password</label>
+                <label className="text-10px font-semibold">Confirm Password</label>
             <input type="text" className="w-[300px] h-[17px] rounded-md"/>
-            <label className="text-8px">Birthday</label>
+            <label className="text-10px font-semibold">Birthday</label>
                 <div className="flex">
                 <input type="text"  
                 placeholder="year" 
@@ -111,20 +112,20 @@ const Contact = () => {
                 className="w-[85px] h-[17px] rounded-md ml-1 
                 placeholder-gray-300 placeholder-text-sm"></input>
             </div>
-            <label className="text-8px">Gender</label>
+            <label className="text-10px font-semibold">Gender</label>
             <input type="text" className="w-[300px] h-[17px] 
             rounded-md"/>
                 <div className="flex">
                 
                 <div>
-                <label className="text-8px">Email</label>
+                <label className="text-10px font-semibold">Email</label>
                 <input type="text"  
                 placeholder="First" 
                 className="w-[150px] h-[17px] rounded-md 
                 placeholder-gray-300"></input>
                 </div>
                 <div>
-                <label className="text-8px">Mobile</label> <br />
+                <label className="text-10px font-semibold">Mobile</label> <br />
                 <input type="text"  
                 placeholder="last" 
                 className="w-[150px] h-[17px] rounded-md ml-1 
@@ -132,9 +133,9 @@ const Contact = () => {
                 </div>
                  
             </div>
-            <div className="ml-32 mt-3">
+            <div className="ml-44 mt-3">
                 <button className="bg-blue-600 text-slate-200 
-                rounded-md w-[150px] h-[17px] text-10px font-sans">Register</button>
+                rounded-lg w-[140px] text-10px font-sans py-3">Register</button>
             </div>
             
         </div>
